@@ -32,16 +32,7 @@ gems:
 
 prose:
     media: "media"
-    rooturl: "."
-    ignore:
-        - "_data"
-        - "_includes"
-        - "_layouts"
-        - "_config.yml"
-        - "_config.yml"
-        - "_prose.yml"
-        - ".gitignore"
-        - "prose-relative-links.jsonp"
+    rooturl: "_posts"
 
     siteurl: "https://rwby-vostfr.github.io/"
     relativeLinks: "https://rwby-vostfr.github.io/prose-relative-links.jsonp"
