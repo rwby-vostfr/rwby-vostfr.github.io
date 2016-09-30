@@ -1,7 +1,5 @@
 ---
-layout: "episode"
 set: "chibi"
 number: 1
 name: "Episode 1"
-permalink: "chibi/episode-1"
 ---
