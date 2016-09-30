@@ -44,19 +44,19 @@ prose:
                 field: { element: "hidden", value: "blog" }
             -
                 name: "title"
-                field: { element: "text" }
+                field: { element: "text", label: "Titre" }
             -
                 name: "date"
-                field: { element: "text", value: "CURRENT_DATETIME" }
+                field: { element: "text", placeholder: "yyyy-mm-dd hh:mm:ss", label: "Date" }
             -
                 name: "category"
                 field: { element: "hidden", value: "blog" }
             -
                 name: "tags"
-                field: { element: "multiselect", alterable: true }
+                field: { element: "multiselect", label: "Tags" }
             -
                 name: "published"
-                field: { element: "checkbox", value: false }
+                field: { element: "checkbox", value: false, label: "Publié" }
 
         _pages:
             -
@@ -64,10 +64,10 @@ prose:
                 field: { element: "hidden", value: "page" }
             -
                 name: "title"
-                field: { element: "text" }
+                field: { element: "text", label: "Titre" }
             -
                 name: "permalink"
-                field: { element: "text" }
+                field: { element: "text", label: "Lien permanent" }
             -
                 name: "published"
-                field: { element: "checkbox", value: true }
+                field: { element: "checkbox", value: true, label: "Publié" }
