@@ -16,9 +16,9 @@
 			{% if page == paginator.page %}
 				<li><a class="button is-active">{{ page }}</a></li>
 			{% elsif page == 1 %}
-				<li><a href="{{ '/' | prepend: full_base_url }}">{{ page }}</a></li>
+				<li><a href="{{ '/' | prepend: full_base_url }}" class="button">{{ page }}</a></li>
 			{% else %}
-				<li><a href="{{ site.paginate_path | prepend: full_base_url | replace: ':num', page }}">{{ page }}</a></li>
+				<li><a href="{{ site.paginate_path | prepend: full_base_url | replace: ':num', page }}" class="button">{{ page }}</a></li>
 			{% endif %}
 		{% endfor %}
 	</ul>

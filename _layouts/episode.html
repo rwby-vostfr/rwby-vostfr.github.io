@@ -1,0 +1,35 @@
+---
+layout: "default"
+---
+<nav class="pagination">
+	{% if page.previous.set == page.set %}
+		<a href="{{ page.previous.url }}" class="button">Précédent</a>
+	{% else %}
+		<a class="button is-disabled">Précédent</a>
+	{% endif %}
+
+	<ul>
+		{% for episode in site.episodes %}
+			{% if episode.set == page.set %}
+				{% if episode.number == page.number %}
+					<li><a class="button is-active">{{ episode.number }}</a></li>
+				{% else %}
+					<li><a href="{{ episode.url }}" class="button">{{ episode.number }}</a></li>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+
+	{% if page.next.set == page.set %}
+		<a href="{{ page.next.url }}" class="button">Suivant</a>
+	{% else %}
+		<a class="button is-disabled">Suivant</a>
+	{% endif %}
+</nav>
+
+<br>
+
+<!-- output here -->
+<div class="intrisic-ratio-container is-16-9">
+	<iframe width="720" height="405" src="//rutube.ru/play/embed/8072226" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+</div>

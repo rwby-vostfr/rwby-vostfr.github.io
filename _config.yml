@@ -1,6 +1,6 @@
 baseurl: ""
 lang: "fr"
-include: ["_pages"]
+# include: ["_pages"]
 
 paginate: 5
 paginate_path: "/page-:num/"
@@ -11,14 +11,14 @@ timezone: "Europe/Paris"
 excerpt_separator: "<!-- more -->"
 
 collections:
-    members:
-        permalink: "/membres/:path"
+    pages:
+        output: true
 
-    sets:
-        permalink: "/series/:path"
+    members: ~
+    sets: ~
 
     episodes:
-        permalink: "/episodes/:path"
+        output: true
 
 gems:
     - "jekyll-paginate"
