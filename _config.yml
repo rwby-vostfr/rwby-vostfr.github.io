@@ -1,0 +1,27 @@
+baseurl: ""
+lang: "fr"
+include: ["_pages"]
+
+paginate: 5
+paginate_path: "/page-:num/"
+
+permalink: "/:year/:month/:day/:title"
+timezone: "Europe/Paris"
+
+excerpt_separator: "<!-- more -->"
+
+collections:
+    members:
+        permalink: "/membres/:path"
+
+    sets:
+        permalink: "/series/:path"
+
+    episodes:
+        permalink: "/episodes/:path"
+
+gems:
+    - "jekyll-paginate"
+    - "jekyll-feed"
+    - "jekyll-redirect-from"
+    - "jekyll-sitemap"

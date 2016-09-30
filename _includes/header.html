@@ -1,0 +1,42 @@
+{% assign custom_url = site.url | append: site.baseurl %}
+{% assign full_base_url = custom_url | default: site.github.url %}
+
+<nav class="nav">
+	<div class="container">
+		<div class="nav-left">
+			<a class="nav-item is-brand" href="{{ '/' | prepend: full_base_url }}">
+				RWBY VOSTFR
+			</a>
+		</div>
+
+		<span class="nav-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</span>
+
+		<div class="nav-right nav-menu">
+			{% for my_page in site.pages %}
+				{% if my_page.title %}
+					<a class="nav-item" href="{{ my_page.url | prepend: full_base_url }}">
+						{{ my_page.title | escape }}
+					</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</nav>
+
+<section class="hero is-primary">
+	<div class="hero-body">
+		<div class="container">
+			<h1 class="title">
+				Hero title
+			</h1>
+
+			<h2 class="subtitle">
+				Hero subtitle
+			</h2>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,25 @@
+<nav class="pagination">
+	{% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path | prepend: full_base_url }}" class="button">Précédent</a>
+	{% else %}
+		<a class="button is-disabled">Précédent</a>
+	{% endif %}
+
+	{% if paginator.next_page %}
+		<a href="{{ paginator.next_page_path | prepend: full_base_url }}" class="button">Suivant</a>
+	{% else %}
+		<a class="button is-disabled">Suivant</a>
+	{% endif %}
+
+	<ul>
+		{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+				<li><a class="button is-active">{{ page }}</a></li>
+			{% elsif page == 1 %}
+				<li><a href="{{ '/' | prepend: full_base_url }}">{{ page }}</a></li>
+			{% else %}
+				<li><a href="{{ site.paginate_path | prepend: full_base_url | replace: ':num', page }}">{{ page }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</nav>

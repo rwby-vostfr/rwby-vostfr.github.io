@@ -1,0 +1,27 @@
+---
+---
+.intrisic-ratio-container {
+	position: relative;
+
+}
+
+.intrisic-ratio-container.is-4-3 {
+	padding-top: 75%;
+}
+
+.intrisic-ratio-container.is-16-9 {
+	padding-top: 56.25%;
+}
+
+.intrisic-ratio-element,
+.intrisic-ratio-container > iframe,
+.intrisic-ratio-container > embed,
+.intrisic-ratio-container > object {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	margin: 0 auto;
+}
