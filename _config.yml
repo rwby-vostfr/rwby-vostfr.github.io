@@ -32,7 +32,7 @@ gems:
 
 prose:
     media: "media"
-    rooturl: "_posts"
+    rooturl: ""
 
     siteurl: "https://rwby-vostfr.github.io/"
     relativeLinks: "https://rwby-vostfr.github.io/prose-relative-links.jsonp"
