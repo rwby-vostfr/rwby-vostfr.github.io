@@ -2,6 +2,7 @@
 layout: "post"
 title: "RWBY épisode 4 - Le premier pas (Partie 1/2)"
 date: 2013-08-11 21:46:00
+published: true
 ---
 ![](http://images4.wikia.nocookie.net/__cb20130809051507/rwby/images/thumb/e/e8/RWBY4_000106.png/250px-RWBY4_000106.png)
 

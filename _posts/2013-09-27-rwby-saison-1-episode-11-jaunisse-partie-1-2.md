@@ -2,6 +2,7 @@
 layout: "post"
 title: "RWBY saison 1 épisode 11 : Jaunisse (Partie 1/2)"
 date: 2013-09-27 23:13:00
+published: true
 ---
 ![](http://images4.wikia.nocookie.net/__cb20130926233019/rwby/images/thumb/d/d3/Cardinvsjaune3.png/250px-Cardinvsjaune3.png)
 

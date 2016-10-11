@@ -2,6 +2,7 @@
 layout: "post"
 title: "Date de sortie épisode 1"
 date: 2013-07-07 00:09:00
+published: true
 ---
 Salut à tous ! Petite news pour vous informer que l'épisode 1 de RWBY sortira le 18 Juillet 2013 !
 

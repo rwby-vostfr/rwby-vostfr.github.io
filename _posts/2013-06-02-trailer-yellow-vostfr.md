@@ -2,6 +2,7 @@
 layout: "post"
 title: "Trailer Yellow VOSTFR"
 date: 2013-06-02 18:23:00
+published: true
 ---
 ![](http://images1.wikia.nocookie.net/__cb20130602043833/rwby/images/b/bf/YangMug.png)
 

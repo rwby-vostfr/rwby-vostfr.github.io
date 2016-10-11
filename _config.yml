@@ -41,7 +41,7 @@ prose:
         _posts:
             -
                 name: "layout"
-                field: { element: "hidden", value: "blog" }
+                field: { element: "hidden", value: "post" }
             -
                 name: "title"
                 field: { element: "text", label: "Titre" }
@@ -65,6 +65,54 @@ prose:
             -
                 name: "title"
                 field: { element: "text", label: "Titre" }
+            -
+                name: "permalink"
+                field: { element: "text", label: "Lien permanent" }
+            -
+                name: "published"
+                field: { element: "checkbox", value: true, label: "Publié" }
+
+        _members:
+            -
+                name: "id"
+                field: { element: "text", label: "id" }
+            -
+                name: "name"
+                field: { element: "text", label: "Nom" }
+            -
+                name: "published"
+                field: { element: "checkbox", value: true, label: "Publié" }
+
+        _sets:
+            -
+                name: "layout"
+                field: { element: "hidden", value: "set" }
+            -
+                name: "slug"
+                field: { element: "text", label: "Slug" }
+            -
+                name: "name"
+                field: { element: "text", label: "Nom" }
+            -
+                name: "permalink"
+                field: { element: "text", label: "Lien permanent" }
+            -
+                name: "published"
+                field: { element: "checkbox", value: true, label: "Publié" }
+
+        _episodes:
+            -
+                name: "layout"
+                field: { element: "hidden", value: "episode" }
+            -
+                name: "set"
+                field: { element: "text", label: "Collection" }
+            -
+                name: "number"
+                field: { element: "number", label: "Numéro" }
+            -
+                name: "name"
+                field: { element: "text", label: "Nom" }
             -
                 name: "permalink"
                 field: { element: "text", label: "Lien permanent" }

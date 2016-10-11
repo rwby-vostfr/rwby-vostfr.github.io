@@ -11,7 +11,7 @@ layout: "default"
 {% endif %}
 
 {% for set in site.sets %}
-	<p class="title is-2">{{ set.name | escape }}</p>
+	<h3 class="title is-3">{{ set.name | escape }}</h3>
 
 	<div class="box">
 		{% if set.content and set.content != '' %}

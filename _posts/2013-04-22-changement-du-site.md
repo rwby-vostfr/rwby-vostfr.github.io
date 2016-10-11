@@ -2,6 +2,7 @@
 layout: "post"
 title: "Changement du site"
 date: 2013-04-22 17:55:00
+published: true
 ---
 Je bosse comme un malade dessus et franchement je savais pas que ça allait être aussi dur, déjà changement de site web, pourquoi ?
 

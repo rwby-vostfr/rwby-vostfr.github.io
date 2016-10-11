@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: blog
+layout: post
 published: true
 title: test-draft
 date: '2016-09-30 15:56:00'

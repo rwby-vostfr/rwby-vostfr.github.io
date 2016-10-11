@@ -2,6 +2,7 @@
 layout: "post"
 title: "RWBY épisode 7 - La fôret d'émeraude (Partie 2/2)"
 date: 2013-09-01 04:19:00
+published: true
 ---
 ![](http://images2.wikia.nocookie.net/__cb20130829233105/rwby/images/thumb/5/5a/Ep7_pyrrha2.png/250px-Ep7_pyrrha2.png)
 

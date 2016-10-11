@@ -2,6 +2,7 @@
 layout: "post"
 title: "RWBY épisode 5 - Le premier pas (Partie 2/2)"
 date: 2013-08-16 17:05:00
+published: true
 ---
 ![](http://images3.wikia.nocookie.net/__cb20130816045547/rwby/images/thumb/3/38/RWBY5_000563.png/250px-RWBY5_000563.png)
 

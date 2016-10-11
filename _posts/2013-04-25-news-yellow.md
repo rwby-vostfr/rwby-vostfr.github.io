@@ -2,6 +2,7 @@
 layout: "post"
 title: "News Yellow"
 date: 2013-04-25 00:04:00
+published: true
 ---
 ![](https://pbs.twimg.com/media/BIphG09CUAIstcP.jpg)
 

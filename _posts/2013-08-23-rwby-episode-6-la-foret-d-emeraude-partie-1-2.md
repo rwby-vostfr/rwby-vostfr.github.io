@@ -2,6 +2,7 @@
 layout: "post"
 title: "RWBY épisode 6 - La fôret d'émeraude (Partie 1/2)"
 date: 2013-08-23 19:55:00
+published: true
 ---
 ![](http://images3.wikia.nocookie.net/__cb20130823011126/rwby/images/thumb/5/5c/RWBY6_002915.png/250px-RWBY6_002915.png)
 
