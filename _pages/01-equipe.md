@@ -4,4 +4,4 @@ title: "Equipe"
 permalink: "/equipe"
 published: true
 ---
-SOME TEXT
+DESCRIPTION DE RWBY VOSTFR ET TEXTE DE RECRUTEMENT
