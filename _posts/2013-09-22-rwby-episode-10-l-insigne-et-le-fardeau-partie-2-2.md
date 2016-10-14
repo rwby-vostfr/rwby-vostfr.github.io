@@ -4,7 +4,7 @@ title: "RWBY épisode 10 - L'insigne et le fardeau (Partie 2/2)"
 date: 2013-09-22 19:40:00
 published: true
 ---
-![](http://images1.wikia.nocookie.net/__cb20130919232948/rwby/images/thumb/f/fc/10_00001.png/250px-10_00001.png)
+![](https://images1.wikia.nocookie.net/__cb20130919232948/rwby/images/thumb/f/fc/10_00001.png/250px-10_00001.png)
 
 Salut à tous ! RWBY épisode 10 pour terminer ce week end en beauté
 

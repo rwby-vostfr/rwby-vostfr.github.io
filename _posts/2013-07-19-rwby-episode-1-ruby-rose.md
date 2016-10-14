@@ -4,7 +4,7 @@ title: "RWBY épisode 1 : Ruby Rose"
 date: 2013-07-19 23:38:00
 published: true
 ---
-![](http://images.wikia.com/rwby/images/b/be/Ruby_headphones.jpg)
+![](https://images.wikia.com/rwby/images/b/be/Ruby_headphones.jpg)
 
 Salut à tous ! Voici l'épisode 1 de RWBY en VOSTFR !
 

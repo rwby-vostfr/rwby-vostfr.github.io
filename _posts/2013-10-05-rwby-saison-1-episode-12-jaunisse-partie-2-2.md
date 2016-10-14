@@ -4,7 +4,7 @@ title: "RWBY saison 1 épisode 12 : Jaunisse (Partie 2/2)"
 date: 2013-10-05 21:14:00
 published: true
 ---
-![](http://images1.wikia.nocookie.net/__cb20131003233042/rwby/images/thumb/7/75/12_01.png/250px-12_01.png)
+![](https://images1.wikia.nocookie.net/__cb20131003233042/rwby/images/thumb/7/75/12_01.png/250px-12_01.png)
 
 Salut à tous !
 

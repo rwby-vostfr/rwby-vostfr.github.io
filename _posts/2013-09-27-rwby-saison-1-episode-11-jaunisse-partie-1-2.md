@@ -4,7 +4,7 @@ title: "RWBY saison 1 épisode 11 : Jaunisse (Partie 1/2)"
 date: 2013-09-27 23:13:00
 published: true
 ---
-![](http://images4.wikia.nocookie.net/__cb20130926233019/rwby/images/thumb/d/d3/Cardinvsjaune3.png/250px-Cardinvsjaune3.png)
+![](https://images4.wikia.nocookie.net/__cb20130926233019/rwby/images/thumb/d/d3/Cardinvsjaune3.png/250px-Cardinvsjaune3.png)
 
 Salut à tous ! Petit épisode 11 ou on apprend pas mal de chose sur la série entre les personnages et l'univers ! On a aussi décidé de mettre quelques notes dedans pour vous aider à mieux comprendre la série et de quoi ils parlent car il y a pas mal de vocabulaire propre à RWBY
 

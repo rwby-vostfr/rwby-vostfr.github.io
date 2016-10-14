@@ -4,7 +4,7 @@ title: "RWBY épisode 8 - Les joueurs et les pièces"
 date: 2013-09-09 19:31:00
 published: true
 ---
-![](http://images2.wikia.nocookie.net/__cb20130906012249/rwby/images/thumb/d/d8/Episode_8_Thumb.png/250px-Episode_8_Thumb.png)
+![](https://images2.wikia.nocookie.net/__cb20130906012249/rwby/images/thumb/d/d8/Episode_8_Thumb.png/250px-Episode_8_Thumb.png)
 
 Salut à tous ! Voici (enfin) l'épisode 8 ! Il a tarder car nos checkeurs étaient indisponible.
 

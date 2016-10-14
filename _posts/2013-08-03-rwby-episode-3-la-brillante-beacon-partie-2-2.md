@@ -4,7 +4,7 @@ title: "RWBY épisode 3 : La brillante Beacon (Partie 2/2)"
 date: 2013-08-03 18:53:00
 published: true
 ---
-![](http://images2.wikia.nocookie.net/__cb20130802002103/rwby/images/thumb/9/9e/Episode3_00040.png/250px-Episode3_00040.png)
+![](https://images2.wikia.nocookie.net/__cb20130802002103/rwby/images/thumb/9/9e/Episode3_00040.png/250px-Episode3_00040.png)
 
 Salut à tous ! Voici l'épisode 3 !
 

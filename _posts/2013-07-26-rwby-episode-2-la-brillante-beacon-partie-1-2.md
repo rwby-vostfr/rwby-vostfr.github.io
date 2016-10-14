@@ -4,7 +4,7 @@ title: "RWBY épisode 2 : La brillante Beacon (Partie 1/2)"
 date: 2013-07-26 21:00:00
 published: true
 ---
-![](http://images.wikia.com/rwby/images/d/de/RWBY2_001774.png)
+![](https://images.wikia.com/rwby/images/d/de/RWBY2_001774.png)
 
 Salut à tous ! Voici l'épisode 2 de RWBY !
 

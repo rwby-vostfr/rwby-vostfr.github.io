@@ -4,7 +4,7 @@ title: "RWBY épisode 9 - L'insigne et le fardeau (Partie 1/2)"
 date: 2013-09-14 13:16:00
 published: true
 ---
-![](http://images1.wikia.nocookie.net/__cb20130913085311/rwby/images/thumb/2/2b/RWBY9_001187.png/250px-RWBY9_001187.png)
+![](https://images1.wikia.nocookie.net/__cb20130913085311/rwby/images/thumb/2/2b/RWBY9_001187.png/250px-RWBY9_001187.png)
 
 Salut à tous ! Petit épisode de RWBY après le formidable épisode 8 !
 
