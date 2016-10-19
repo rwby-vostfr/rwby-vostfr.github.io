@@ -29,9 +29,11 @@ layout: "default"
 
 <br>
 
+{% if page.rutube %}
+	<div class="intrisic-ratio-container is-16-9">
+		<iframe width="720" height="405" src="https://rutube.ru/play/embed/{{page.rutube}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+{% endif %}
+
 <!-- output here -->
 {{ content }}
-
-<!-- <div class="intrisic-ratio-container is-16-9">
-	<iframe width="720" height="405" src="//rutube.ru/play/embed/8072226" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
-</div> -->
