@@ -12,36 +12,38 @@ layout: "default"
 
 <div class="columns is-multiline">
 	{% for set in site.sets %}
-		<div class="column is-half">
-			<div class="card is-fullwidth">
-				<header class="card-header">
-					<p class="card-header-title">
-						{{ set.name | escape }}
-					</p>
-				</header>
-				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="http://placehold.it/300x225" alt="">
-					</figure>
-				</div>
-				<div class="card-content">
-					{% if set.content and set.content != '' %}
-						<div class="content">
-							{{ set.content }}
-						</div>
-					{% endif %}
-
-					{% for episode in site.episodes %}
-						{% if episode.set == set.slug %}
-							<p>
-								<strong>
-									<a href="{{ episode.url }}">{{ episode.name | escape }}</a>
-								</strong>
-							</p>
+		{% if set.published %}
+			<div class="column is-half">
+				<div class="card is-fullwidth">
+					<header class="card-header">
+						<p class="card-header-title">
+							{{ set.name | escape }}
+						</p>
+					</header>
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="{{set.banner}}" alt="">
+						</figure>
+					</div>
+					<div class="card-content">
+						{% if set.content and set.content != '' %}
+							<div class="content">
+								{{ set.content }}
+							</div>
 						{% endif %}
-					{% endfor %}
+
+						{% for episode in site.episodes %}
+							{% if episode.set == set.slug %}
+								<p>
+									<strong>
+										<a href="{{ episode.url }}">{{ episode.name | escape }}</a>
+									</strong>
+								</p>
+							{% endif %}
+						{% endfor %}
+					</div>
 				</div>
 			</div>
-		</div>
+		{% endif %}
 	{% endfor %}
 </div>
