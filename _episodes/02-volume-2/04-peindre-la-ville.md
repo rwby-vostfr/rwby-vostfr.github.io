@@ -4,5 +4,6 @@ set: "volume-2"
 number: 4
 name: "Chapitre 4 : Peindre la ville"
 permalink: "volume-2/chapitre-4-peindre-la-ville"
+rutube: 9816702
 published: true
 ---

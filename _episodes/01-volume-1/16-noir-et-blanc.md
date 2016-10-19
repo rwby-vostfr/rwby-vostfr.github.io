@@ -4,5 +4,6 @@ set: "volume-1"
 number: 16
 name: "Chapitre 16 : Noir et Blanc"
 permalink: "volume-1/chapitre-16-noir-et-blanc"
+rutube: 9816085
 published: true
 ---
