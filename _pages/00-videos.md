@@ -1,6 +1,6 @@
 ---
 layout: "episodes"
-title: "Série"
-permalink: "/serie"
+title: "Vidéos"
+permalink: "/videos"
 published: true
 ---

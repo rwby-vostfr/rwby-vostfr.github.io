@@ -1,5 +1,5 @@
 ---
-layout: "team"
+layout: "members"
 title: "Equipe"
 permalink: "/equipe"
 published: true

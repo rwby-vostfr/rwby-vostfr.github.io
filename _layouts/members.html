@@ -1,0 +1,33 @@
+---
+layout: "default"
+---
+{% assign custom_url = site.url | append: site.baseurl %}
+{% assign full_base_url = custom_url | default: site.github.url %}
+
+{% if content %}
+	<div class="content">
+		{{ content }}
+	</div>
+{% endif %}
+
+<p class="title is-3">Membres actifs</p>
+<div class="columns is-multiline">
+	{% for member in site.members %}
+		{% if member.active %}
+			<div class="column is-one-third">
+				{% include member-card.html %}
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>
+
+<p class="title is-3">Membres inactifs</p>
+<div class="columns is-multiline">
+	{% for member in site.members %}
+		{% if member.active == false %}
+			<div class="column is-one-third">
+				{% include member-card.html %}
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>
