@@ -35,5 +35,11 @@ layout: "default"
 	</div>
 {% endif %}
 
-<!-- output here -->
-{{ content }}
+{% assign content = content | strip_newlines %}
+{% if content != ''  %}
+	<br>
+
+	<div class="content box">
+		{{ content }}
+	</div>
+{% endif %}
