@@ -1,8 +1,10 @@
 ---
 id: "naru"
 name: "naru"
+active: true
 roles:
     - "uploader"
     - "encodeur"
-active: true
+background: "https://placehold.it/300x150"
+avatar: "https://placehold.it/60x60"
 ---

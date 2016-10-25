@@ -1,8 +1,58 @@
 ---
 ---
+body {
+	background: url('/images/bg.jpg') fixed;
+	background-size: cover;
+}
+
+.header.hero {
+	background: transparent;
+}
+
+.header.hero.is-bold {
+	background-image: none;
+}
+
+.header .hero-head {
+	position: fixed;
+	width: 100%;
+	background: linear-gradient(141deg, #1f191a 0%, #363636 71%, #46403f 100%);
+	z-index: 15;
+}
+
+.header .hero-body .title {
+	font-family: RWBY;
+	text-shadow: 0 0 10px black;
+}
+
+.header .hero-body .title.is-over-9000 {
+}
+
+.header .hero-body .subtitle {
+	color: white;
+	text-shadow: 0 0 5px black;
+}
+
+.header .hero-body {
+	margin-top: 50px;
+}
+
+.header .main-title {
+
+}
+
+.section {
+	background-color: transparent;
+}
+
+.title.is-inverted {
+	color: white;
+}
+
+
+
 .intrisic-ratio-container {
 	position: relative;
-
 }
 
 .intrisic-ratio-container.is-4-3 {

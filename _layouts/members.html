@@ -5,12 +5,14 @@ layout: "default"
 {% assign full_base_url = custom_url | default: site.github.url %}
 
 {% if content %}
-	<div class="content">
-		{{ content }}
+	<div class="notification">
+		<div class="content">
+			{{ content }}
+		</div>
 	</div>
 {% endif %}
 
-<p class="title is-3">Membres actifs</p>
+<p class="title is-3 is-inverted">Membres actifs</p>
 <div class="columns is-multiline">
 	{% for member in site.members %}
 		{% if member.active %}
@@ -21,7 +23,7 @@ layout: "default"
 	{% endfor %}
 </div>
 
-<p class="title is-3">Membres inactifs</p>
+<p class="title is-3 is-inverted">Membres inactifs</p>
 <div class="columns is-multiline">
 	{% for member in site.members %}
 		{% if member.active == false %}

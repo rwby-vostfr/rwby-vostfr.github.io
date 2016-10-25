@@ -4,4 +4,4 @@ title: "Equipe"
 permalink: "/equipe"
 published: true
 ---
-DESCRIPTION DE RWBY VOSTFR ET TEXTE DE RECRUTEMENT
+N'hésitez pas à contacter <b>Marek the Jester</b> si vous avez des questions ou si vous voulez rejoindre l'équipe ! 
