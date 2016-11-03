@@ -4,7 +4,6 @@ name: "wryk"
 active: true
 roles:
     - "webmaster"
-    - "uploader"
 background: "images/members/wryk/background.jpg"
 avatar: "images/members/wryk/avatar.jpg"
 ---

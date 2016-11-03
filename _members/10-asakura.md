@@ -4,7 +4,6 @@ name: "Asakura"
 active: true
 roles:
     - "webmaster"
-    - "uploader"
 background: "images/members/asakura/background.jpg"
 avatar: "images/members/asakura/avatar.jpg"
 ---
