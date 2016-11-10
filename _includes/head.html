@@ -5,7 +5,7 @@
 
 	<title>{% if page.meta_title %}{{ page.meta_title | escape }} - {% endif %}{{ site.meta_title | escape }}</title>
 	<meta name="keywords" content="{{ site.meta_keywords }}" />
-	{% if page.use_default_meta_description or page.meta_description -%}
+	{% if page.use_default_meta_description or page.meta_description %}
 		{% if page.use_default_meta_description %}
 			{% assign meta_description = site.meta_description %}
 		{% else %}
@@ -13,7 +13,7 @@
 		{% endif %}
 
 		<meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-	{%- endif %}
+	{% endif %}
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: full_base_url }}">
 	<link rel="icon" href="{{ "/favicon.ico" | prepend: full_base_url }}" />
