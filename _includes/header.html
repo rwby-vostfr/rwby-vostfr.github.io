@@ -14,9 +14,9 @@
 
 		<div class="nav-right nav-menu">
 			{% for my_page in site.pages %}
-				{% if my_page.meta_title %}
+				{% if my_page.menu_title %}
 					<a class="nav-item" href="{{ my_page.url | prepend: full_base_url }}">
-						{{ my_page.meta_title | escape }}
+						{{ my_page.menu_title | escape }}
 					</a>
 				{% endif %}
 			{% endfor %}

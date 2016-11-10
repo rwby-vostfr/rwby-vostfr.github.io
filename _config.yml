@@ -1,7 +1,8 @@
 baseurl: ""
 lang: "fr"
 meta_title: "RWBY VOSTFR"
-description: "Site communautaire français autour de la série RWBY de RoosterTeeth"
+meta_keywords: "rwby, vostfr, rooster teeth, hype train, cookies"
+meta_description: "Communautée française autour de la série RWBY de Rooster Teeth."
 
 timezone: "Europe/Paris"
 
