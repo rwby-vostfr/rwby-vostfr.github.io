@@ -1,5 +1,5 @@
 ---
 slug: "world-of-remnant"
 name: "Le Monde de Remnant"
-published: false
+published: true
 ---
