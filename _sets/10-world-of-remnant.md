@@ -1,6 +1,6 @@
 ---
 slug: "world-of-remnant"
-name: "Le Monde de Remnant"
+name: "World of Remnant"
 banner: "images/sets/world-of-remnant-banner.jpg"
 published: true
 ---
