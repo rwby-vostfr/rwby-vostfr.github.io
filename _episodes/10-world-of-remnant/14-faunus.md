@@ -4,6 +4,6 @@ set: "world-of-remnant"
 number: 14
 name: "Volume 4, World of Remnant : Faunus"
 permalink: "volume-4/world-of-remnant-faunus"
-rutube: ~
-published: false
+rutube: 9936472
+published: true
 ---
