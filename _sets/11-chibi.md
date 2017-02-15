@@ -1,5 +1,6 @@
 ---
 slug: "chibi"
 name: "Chibi"
-published: false
+banner: "images/sets/chibi-banner.jpg"
+published: true
 ---
